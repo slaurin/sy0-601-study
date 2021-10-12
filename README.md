@@ -5,8 +5,11 @@
 ### 1.1 Compare and contrast different types of social engineering techniques.
 
 #### Phishing
+    Email containing link or attachment.
 #### Smishing
+    SMS phishing
 #### Vishing
+    Voice phishing
 #### Spam
 #### Spam over instant messaging (SPIM)
 #### Spear phishing
