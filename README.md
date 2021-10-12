@@ -1,4 +1,4 @@
-# Study Guide For CompTIA Secure+
+# Study Guide For CompTIA Security+
 
 ## 1.0 Threats, Attacks, and Vulnerabilities
 
