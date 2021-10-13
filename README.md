@@ -1,4 +1,4 @@
-# Study Guide For CompTIA Security+
+-10 6# Study Guide For CompTIA Security+
 
 ## 1.0 Threats, Attacks, and Vulnerabilities
 
@@ -16,7 +16,7 @@ Unwanted email
 #### Spam over instant messaging (SPIM)
 Unwanted email over messaging
 #### Spear phishing
-Phishing targetted at group of user or even single user.
+Phishing targetted at group of user or even single user
 #### Dumpster diving
 Going into the trash/recycle to find information
 #### Shoulder surfing
@@ -110,19 +110,29 @@ Payload of virus is damaging
 - enable backdoor
 
 #### Ransomware
+Malware that takes control of a user's system or user's data. Attacker's attempt to extort payment from victim.
 #### Trojans
 Trojan typically looks like something beneficial but is actually malicious, will include a backdoor for example.
 In PC trojan can be: - pirated software
                      - useful utility
                      - a game
 Many trojan are delivered by drive-by downloads (web servers that was compromised and visiting the site will attempt to download the trojan)
-Fake antivirus 
+Fake antivirus
 #### Worms
 Self-replicating malware that travels throught the network without any assistance from host application or user interaction.
 Consumes network bandwidth.
 
 #### Potentially unwanted programs (PUPs)
+Software including unwanted software. Sometimes legit, other time malware.
+
 #### Fileless virus
+Malicious software that runs in memory.
+- Memory code injection: malware inject code into legitimate application
+- Script-based technique
+- Windows registry manipulation
+
+Fileless virus can be embedded within vCard
+
 #### Command and control
 Give instruction to bots in botnet
 Now used for more then botnet
@@ -136,9 +146,13 @@ Bot herders: criminal controlling the botnet
 Bots check in with the command and control systems to receive their commands to execute
 
 #### Cryptomalware
+Ransomware where the data is encrypted. Attacker's ask for a payment in bitcoin and if victim pay they might give the encryption key.
 #### Logic bombs
 Code embedded in application or script that is triggered by an event (date/time, application launched, ...).
+
 #### Spyware
+Monitor's user computer and often includes a keylogger.
+
 #### Keyloggers
 #### Remote access Trojan (RAT)
 Malware that allows attackers to control the PC from a remote location.
@@ -147,32 +161,53 @@ Growing trend to deliver by Portable Executable (PE)
 Collect and log key stroke username, password, in-out email, chat sessions, browser history, take snapshot
 
 #### Rootkit
+Use hooking technique to hide.
+Have system-level/root access.
+Inspectin RAM can allow to discover these hidden hooked processes.
 #### Backdoor
 Another way to access to a system (created by malware or by developper)
 Malware install backdoor to bypass normal authentication methods.
 
 ### Password attacks
 #### Spraying
+Special brute force or dictionary attack aimed at preventing account lockout.
+Uses a large list of target users. A software takes a password and tries it for each users in the list.
+The time it takes to try the password on every users account it expected to be long enough to prevent account lockout.
+
 #### Dictionary
+It uses a dictionary of words and attempts every words in the dictionary to see if it works.
+These attack are thwarted by using complex password.
 #### Brute force
+Attempt to guest all possible character combinaissons. Longer the password longer it takes.
+
 ##### Offline
+Offline password attacks attempts to discover passwords from captured database or captured packet scan.
+
 ##### Online
+Online password attacks attempts to discover password from online system.
+
 #### Rainbow table
+Attempt to discover the password from the hash. Rainbow table are large database of possible passwords with the precomputed hashes for each.
 #### Plaintext/unencrypted
-• Physical attacks
-- Malicious Universal 
+
+#### Physical attacks
+- Malicious Universal
  Serial Bus (USB) cable
 - Malicious flash drive
 - Card cloning
 - Skimming
 • Adversarial artificial intelligence (AI)
-- Tainted training data for 
+- Tainted training data for
  machine learning (ML)
-- Security of machine 
+- Security of machine
  learning algorithms
 • Supply-chain attacks
 • Cloud-based vs. on-premises attacks
 • Cryptographic attacks
 - Birthday
+Exploit collisions in hashing algorithm.
 - Collision
-- Downgrad
+Hash collision occurs when the hashing algorithm creates the same hash from different passwords.
+- Downgrade
+A downgrade attack is a form of cyber attack in which an attacker forces a network channel to switch to an unprotected or less secure data transmission standard.
+Downgrading the protocol version is one element of man-in-the-middle type attacks, and is used to intercept encrypted traffic
