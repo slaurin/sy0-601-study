@@ -1628,20 +1628,23 @@ Configure firewall to make sure to only accept updates from trusted sites.
 - Anonymization
 - Pseudo-anonymization
 ### Roles and responsibilities
-- Data owners
+#### Data owners
 A senior (Executive) role with ultimate responsibility for maintaining the confidentiality, integrity and availability of the information asset
 The data owner is responsible for labeling the asset and ensuring that it is protected with appropriate controls
 Should be owner per department. Data owner should be the person who knows about the data (ex. Accountant, ...)
-- Data steward
+#### Data steward
 A role focused on the quality of the data and associated metadata (Make sure data is correctly label as per the Data Owner request)
-- Data custodian
+#### Data custodian
 A role responsible (System Administrator) for handling the management of the system on which the data assets are stored (encryption, backup, ..)
-- Privacy Officer
+#### Privacy Officer
 A role responsible for the oversight of any PII/SPI/PHI assets managed by the company
 
-- Data controller
-- Data processor
-- Data protection officer (DPO)
+#### Data controller
+TODO
+#### Data processor
+TODO
+#### Data protection officer (DPO)
+TODO
 
 ### Information life cycle
 ### Impact assessment
